@@ -1,6 +1,6 @@
 {
     "env": {
-        "browser": true,
+        "node": true,
         "es2021": true
     },
     "extends": "standard-with-typescript",
@@ -11,5 +11,6 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-useless-constructor":"off"
     }
 }
